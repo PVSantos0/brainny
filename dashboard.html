@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0">
+
+		<!--Titulo do Site-->
+		<title>Teste de Brainny</title>
+
+		<!-- fonte do site google fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet"> 
+
+		<!-- Icones do Bootstrap -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+		<!-- CSS Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+		
+		<!-- Meu CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	
+	<body class="bg-dashboard">
+        <div class="container-flex">
+            <div class="row">
+                <nav class="col-navbar bg-light">
+                    <div class="siderbar">
+                        <ul class="navbar-left">
+                            <li class="item">
+                                <img class='logo' src="imgs/Group 46.png">
+                            </li>
+                            <span class='border-bottom'></span>
+                            <li class='item  active'>
+                                <i class="bi bi-columns"></i>
+                                <a class="dash" href="dashboard.html">Dashboard</a>
+                            </li>
+                            <span class='border-bottom'></span>
+                            <li class="item">
+                                <i class="bi bi-pencil-square"></i>
+                                <a class="notes" href="registros.html">Meus Registros</a>
+                            </li>
+                            <span class='border-bottom'></span>
+                            <li class="item fixed-bottom">
+                                <a href="index.html"> 
+                                    <i class="bi bi-box-arrow-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <main class="col-main">
+                    <div class='table-responsive-md'>
+                        <table class="table table-hover" id='tbList'>
+                            <thead>
+                                <tr>
+                                    <th class='table-head'>Coloborador</th>
+                                    <th class='table-head'>Data</th>
+                                    <th class='table-head'>Hora</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class='box'>
+                                    <th class='cell radius-l name'>Admin</th>
+                                    <th class='cell date'>03/06/2021</th>
+                                    <th class='cell radius-r hour'>19:00</th>
+                                </tr>
+                                <tr class='box'>
+                                    <th class='box cell radius-l name'>Maria</th>
+                                    <th class='cell date'>03/06/2021</th>
+                                    <th class='cell radius-r hour'>19:00</th>
+                                </tr>
+                                <tr class='box'>
+                                    <th class='cell radius-l name'>Joao</th>
+                                    <th class='cell date'>03/06/2021</th>
+                                    <th class='cell radius-r hour'>19:00</th>
+                                </tr>
+                                <tr class='box'>
+                                    <th class='cell radius-l name'>Amanda</th>
+                                    <th class='cell date'>03/06/2021</th>
+                                    <th class='cell radius-r hour'>19:00</th>
+                                </tr>
+                                <tr class='box'>
+                                    <th class='cell radius-l name'>Paulo</th>
+                                    <th class='cell date'>03/06/2021</th>
+                                    <th class='cell radius-r hour'>19:00</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </main>
+            </div>
+        </div>
+        
+		<!-- Javascript JQuey -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<!-- Javascript Bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+		<!-- Meu javascript -->
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

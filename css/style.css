@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color:#333333; 
+}
+
+.mt-0{
+    margin-top: 0px !important;
+}
+
+#logo, #bgLogin{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bgLogin{
+    background-image: url(../imgs/Vector.png);
+    width: 865px; 
+    height: 714px;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+}
+
+.bg-1{
+    width: 60%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.title{
+    color:#fff;
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subTitle{
+    text-transform: uppercase;
+    color: #219653;
+    font-size: 80%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: .4rem;
+}
+
+.col{
+    margin-top: 20%;
+}
+
+.column{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.btn-greem{
+    background-color: #219653;
+    color:#fff;
+}
+
+@media (max-width: 1024px) {
+    .bgLogin{
+        background-image: none;
+        width: 100%; 
+    }
+    
+    .bg-1{
+        width: 100%;
+    }
+
+    .col{
+        margin-top: 35%;
+    }
+
+} 
+
+/* ------------------------------------- */
+
+nav{
+    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2);
+}
+
+.bg-dashboard{
+    background-color: #c4c4c4c4;
+}
+
+.col-navbar{
+    width: calc( 2rem + 6% );
+}
+
+.siderbar{
+    height: 100vh;
+}
+
+.logo, .item{
+    width: 60px;
+    margin: 10px 0 10px 10px;
+} 
+
+.navbar-left{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.item a, .item i{
+    color: #c4c4c4c4;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.item i{
+    font-size: 25px;
+    margin-left: 50%;
+}
+
+ .active{
+    border-left: 4px solid #219653;
+    padding-left: 5px;
+    box-sizing: content-box;
+}
+
+.active i, .active a {
+    color: #219653;
+}
+
+.dash, .notes{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.col-main{
+    width: 80%;
+    margin: 35px;
+}
+
+@media (max-width: 1024px) {
+    .col-navbar{
+        width: calc( 2rem + 10% );
+    }
+
+} 
+
+@media (max-width: 1023px) {
+    .col-navbar{
+        width: 100%;
+    }
+
+    .siderbar{
+        height: 100%;
+    }
+
+} 
+
+/* ------------------------------------- */
+
+.table{    
+    width: 100% !important;
+    border-spacing: 0px 15px;
+    border-collapse: separate;
+}
+
+.table-head{
+    font-style: normal;
+    font-weight: normal;
+    padding-bottom: 15px;
+    border-bottom-width: 0px !important;
+}
+
+.line{
+    border-left: 4px solid #219653;
+    padding-right: 50px;
+}
+
+.box{
+    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2);
+}
+
+.radius-l{
+    border-radius: 15px 0px 0px 15px;
+    margin:150px !important;
+}
+
+.radius-r{
+    border-radius: 0px 15px 15px 0px;
+    margin:150px !important;
+}
+
+.cell{
+    padding: 15px !important;
+    background-color: #fff !important; 
+}
+
+.name{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    color: #303030 !important;
+}
+
+.date{
+    font-size: 12px;
+    color: #888888;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+}
+
+.hour{
+    font-weight: bold;
+    font-size: 20px;
+    color: #888888;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+}
+
+
+
+/* ------------------------------------- */
+
+.btn-register{
+    background-color: #219653;
+    color: #fff;
+    font-weight: bold;
+    float:right;
+}
+
+.btn-register:hover{
+    background-color: #fff;
+    color: #219653;
+}
+
+.form{
+    padding: 15px !important;
+    background-color: #fff !important;
+    border-radius: 15px;
+    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* ------------------------------------- */
+.btn > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Animação */
+#col-1{
+    animation: logo 5s;
+}
+
+#col-2{
+    animation: input 5s;
+}
+
+
+@keyframes logo {
+    0%{
+        transform: translateY(-100%);
+    }   
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes input {
+    0%{
+        transform: translateY(200%);
+    }
+     
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
